@@ -165,9 +165,6 @@ export class Connection extends EventEmitter {
             this.state = State.CONNECTED;
         } catch (error: any) {
             this.player.node.emit('debug', this.player.node.name, `[Voice] </- [Discord] : Request Connection Failed | Guild: ${this.guildId}`);
-            if (error.name === 'AbortError')
-                throw new Error('The voice connection is not established in 15 seconds');
-            throw error;
         } finally {
             clearTimeout(timeout);
         }
