@@ -38,7 +38,7 @@ Refer to [/src/connectors](https://github.com/Deivu/Shoukaku/tree/master/src/con
 > npm install shoukaku
 
 * Dev
-> npm install https://github.com/Deivu/Shoukaku.git#master
+> npm install https://github.com/pasindu20/Lara_Shoukaku.git#master
 
 ### Documentation
 
